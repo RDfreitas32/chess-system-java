@@ -34,7 +34,7 @@ public class Board {
 			throw new BoardException("Position not on the Board");
 		}
 		
-		return pieces [rows][columns];
+		return pieces [row][column];
 	}
 	
 	public Piece piece (Position position) {
